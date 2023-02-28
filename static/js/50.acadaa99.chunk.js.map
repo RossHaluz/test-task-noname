@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/50.acadaa99.chunk.js","mappings":"0JAIA,UAJiB,WACf,OAAO,oCACR,C","sources":["page/Checkout.jsx"],"sourcesContent":["const Checkout = () => {\n  return <h2>Checkout</h2>;\n};\n\nexport default Checkout;\n"],"names":[],"sourceRoot":""}
