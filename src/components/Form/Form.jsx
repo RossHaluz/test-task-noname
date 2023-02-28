@@ -1,3 +1,4 @@
+import { FormRegister } from './Form.styled';
 const { useState } = require('react');
 
 export const Form = ({ title, handleClick }) => {
@@ -5,7 +6,7 @@ export const Form = ({ title, handleClick }) => {
   const [pass, setPass] = useState('');
 
   return (
-    <div>
+    <FormRegister>
       <input
         type="
         email"
@@ -22,6 +23,6 @@ export const Form = ({ title, handleClick }) => {
       />
 
       <button onClick={() => handleClick(email, pass)}>{title}</button>
-    </div>
+    </FormRegister>
   );
 };
