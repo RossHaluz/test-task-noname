@@ -9,7 +9,7 @@ import './firebase';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/test-task-noname">
       <Provider store={store}>
         <App />
         </Provider>
